@@ -1,0 +1,22 @@
+saliou@saliou-PC:~/repos/git_test$ git status 
+Sur la branche main
+Votre branche est à jour avec 'origin/main'.
+
+Modifications qui ne seront pas validées :
+  (utilisez "git add <fichier>..." pour mettre à jour ce qui sera validé)
+  (utilisez "git restore <fichier>..." pour annuler les modifications dans le répertoire de travail)
+	modifié :         README.md
+
+aucune modification n'a été ajoutée à la validation (utilisez "git add" ou "git commit -a")
+saliou@saliou-PC:~/repos/git_test$ git add README.md 
+saliou@saliou-PC:~/repos/git_test$ git status 
+Sur la branche main
+Votre branche est à jour avec 'origin/main'.
+
+Modifications qui seront validées :
+  (utilisez "git restore --staged <fichier>..." pour désindexer)
+	modifié :         README.md
+
+saliou@saliou-PC:~/repos/git_test$ git push 
+Everything up-to-date
+saliou@saliou-PC:~/repos/git_test$ 
